@@ -11,5 +11,9 @@
 - event
 ```document.body.addEventListener("click")```
 
-# L143
-- trigger evnet
+# L143 Trigger evnet
+
+# L144 JSon Server
+- install json-server :  `npm install -g json-server`
+- start json-server : `json-server -w db.json`
+- install axios : `npm install axios`

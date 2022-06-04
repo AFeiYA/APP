@@ -17,3 +17,12 @@
 - install json-server :  `npm install -g json-server`
 - start json-server : `json-server -w db.json`
 - install axios : `npm install axios`
+
+# L145 Rest Conventions
+- Get /posts  Retrieve all posts
+- Get /posts/:id  Retrieve post with given id
+- Post /posts  Create a new post
+- Put /posts/:id  Update a post
+- Delete /posts/:id  Delete a post
+
+# L147 Fetch Data

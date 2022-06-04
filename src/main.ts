@@ -1,15 +1,8 @@
 import {User} from './models/User';
-console.log("Running")
-const user = new User({name: "John", age: 30});
-console.log(user.get("name"));
-user.set({name: "John Doe", age: 40});
-user.on("change", () => {
-    console.log("User changed");
-});
-user.on("error", () => {
-    console.log("error");
-}
+import axios from 'axios';
 
-user.trigger("change");
-user.trigger("error");
-console.log(user);;
+const user = new User({id:1});
+user.fetch();
+setTimeout(() => {
+    console.log(user);
+}, 2000);
